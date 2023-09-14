@@ -1,0 +1,1 @@
+/home/luisf/Mercury/build/navigation/rosidl_typesupport_introspection_c/navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h

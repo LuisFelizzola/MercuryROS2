@@ -1,0 +1,1 @@
+/home/luisf/Mercury/build/navigation/rosidl_typesupport_fastrtps_c/navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

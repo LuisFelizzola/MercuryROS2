@@ -1,0 +1,9 @@
+#Get the velocity of the wheels
+float64 linear_x
+float64 linear_y
+float64 angular_z #teta
+---
+float64 w1
+float64 w2
+float64 w3
+float64 w4

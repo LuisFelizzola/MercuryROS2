@@ -1,0 +1,94 @@
+[0.035s] Invoking command in '/home/luisf/Mercury/build/navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/Mercury/build/navigation -- -j4 -l4
+[0.633s] [  3%] Built target navigation__cpp
+[0.637s] [ 12%] Built target navigation__rosidl_generator_c
+[0.688s] [ 32%] Built target navigation__rosidl_typesupport_introspection_cpp
+[0.691s] [ 32%] Built target navigation__rosidl_typesupport_cpp
+[0.697s] [ 41%] Built target navigation__rosidl_typesupport_c
+[0.700s] [ 51%] Built target navigation__rosidl_typesupport_fastrtps_cpp
+[0.732s] [ 61%] Built target navigation__rosidl_typesupport_introspection_c
+[0.748s] [ 70%] Built target navigation__rosidl_typesupport_fastrtps_c
+[0.787s] [ 70%] Built target navigation
+[0.829s] [ 74%] Built target navigation__py
+[0.878s] [ 80%] Built target navigation__python
+[0.929s] [ 87%] Built target navigation__rosidl_typesupport_introspection_c__pyext
+[0.944s] [100%] Built target navigation__rosidl_typesupport_c__pyext
+[0.945s] [100%] Built target navigation__rosidl_typesupport_fastrtps_c__pyext
+[0.964s] Invoked command in '/home/luisf/Mercury/build/navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/Mercury/build/navigation -- -j4 -l4
+[1.082s] Invoking command in '/home/luisf/Mercury/build/navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/Mercury/build/navigation
+[1.099s] -- Install configuration: ""
+[1.100s] -- Execute custom install script
+[1.101s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/rosidl_interfaces/navigation
+[1.103s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_generator_c__visibility_control.h
+[1.105s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__functions.h
+[1.105s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__struct.h
+[1.106s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__type_support.h
+[1.106s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/get_velocity.h
+[1.107s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/library_path.sh
+[1.107s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/library_path.dsv
+[1.109s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.109s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_fastrtps_c.h
+[1.110s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_fastrtps_c.so
+[1.111s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.111s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[1.112s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_fastrtps_cpp.so
+[1.113s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.113s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_introspection_c.h
+[1.115s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.115s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__builder.hpp
+[1.115s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__struct.hpp
+[1.116s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__traits.hpp
+[1.116s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__type_support.hpp
+[1.117s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/get_velocity.hpp
+[1.118s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_introspection_cpp.hpp
+[1.119s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/pythonpath.sh
+[1.119s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/pythonpath.dsv
+[1.120s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/__init__.py
+[1.121s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/srv/__init__.py
+[1.121s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/srv/_get_velocity.py
+[1.122s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.123s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.124s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.125s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/lib/libnavigation__python.so
+[1.126s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity.idl
+[1.126s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity.srv
+[1.127s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity_Request.msg
+[1.128s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity_Response.msg
+[1.128s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[1.129s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[1.130s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[1.131s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[1.132s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/path.sh
+[1.134s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/path.dsv
+[1.135s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.bash
+[1.135s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.sh
+[1.135s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.zsh
+[1.136s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.dsv
+[1.136s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/package.dsv
+[1.153s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/packages/navigation
+[1.154s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake-extras.cmake
+[1.154s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.155s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[1.156s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_targets-extras.cmake
+[1.156s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.157s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.158s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.159s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[1.159s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[1.160s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/package.xml
+[1.161s] -- Up-to-date: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_generator_c.so
+[1.162s] -- Up-to-date: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_c.so
+[1.163s] -- Up-to-date: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_c.so
+[1.164s] -- Up-to-date: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_cpp.so
+[1.165s] -- Up-to-date: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_cpp.so
+[1.225s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cExport.cmake
+[1.226s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cExport-noconfig.cmake
+[1.226s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cExport.cmake
+[1.227s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.227s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cExport.cmake
+[1.227s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cExport-noconfig.cmake
+[1.227s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cppExport.cmake
+[1.229s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cppExport.cmake
+[1.229s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.230s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cppExport.cmake
+[1.230s] -- Up-to-date: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cppExport-noconfig.cmake
+[1.234s] Invoked command in '/home/luisf/Mercury/build/navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/Mercury/build/navigation

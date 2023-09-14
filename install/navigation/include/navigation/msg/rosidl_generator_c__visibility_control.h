@@ -1,0 +1,1 @@
+/home/luisf/Mercury/build/navigation/rosidl_generator_c/navigation/msg/rosidl_generator_c__visibility_control.h

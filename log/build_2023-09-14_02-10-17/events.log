@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000978] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.001086] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.029282] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'cmake'}
+[0.031634] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'build'}
+[0.034021] (navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luisf/Mercury/build/navigation', '--', '-j4', '-l4'], 'cwd': '/home/luisf/Mercury/build/navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '1841'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/Mercury/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/Mercury/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49168'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/luisf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2253,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2253'), ('INVOCATION_ID', 'd3772ad77f6d40bb88670cdf15079ef4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51978fef_8943_4844_b651_8045d850fe54'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/Mercury/build/navigation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.094675] (navigation) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098715] (-) TimerEvent: {}
+[0.139133] (navigation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198862] (-) TimerEvent: {}
+[0.299313] (-) TimerEvent: {}
+[0.399787] (-) TimerEvent: {}
+[0.500212] (-) TimerEvent: {}
+[0.568474] (navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.585160] (navigation) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600338] (-) TimerEvent: {}
+[0.649598] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.658454] (navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700464] (-) TimerEvent: {}
+[0.800957] (-) TimerEvent: {}
+[0.890457] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901062] (-) TimerEvent: {}
+[0.985198] (navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.988124] (navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.001177] (-) TimerEvent: {}
+[1.101565] (-) TimerEvent: {}
+[1.201965] (-) TimerEvent: {}
+[1.267862] (navigation) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.281700] (navigation) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.302087] (-) TimerEvent: {}
+[1.378477] (navigation) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.402220] (-) TimerEvent: {}
+[1.502718] (-) TimerEvent: {}
+[1.603099] (-) TimerEvent: {}
+[1.703591] (-) TimerEvent: {}
+[1.739693] (navigation) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.803714] (-) TimerEvent: {}
+[1.904141] (-) TimerEvent: {}
+[2.004663] (-) TimerEvent: {}
+[2.026025] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.089721] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.104759] (-) TimerEvent: {}
+[2.137931] (navigation) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.159778] (navigation) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.204940] (-) TimerEvent: {}
+[2.265939] (navigation) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.266437] (navigation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.266684] (navigation) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.266897] (navigation) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.305050] (-) TimerEvent: {}
+[2.310893] (navigation) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.405248] (-) TimerEvent: {}
+[2.464785] (navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.505392] (-) TimerEvent: {}
+[2.569140] (navigation) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.571854] (navigation) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.573626] (navigation) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.573952] (navigation) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.575094] (navigation) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.575396] (navigation) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.575854] (navigation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.576646] (navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.577343] (navigation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.578639] (navigation) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.578994] (navigation) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.579425] (navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.590802] (navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.605549] (-) TimerEvent: {}
+[2.705938] (-) TimerEvent: {}
+[2.709524] (navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[2.718025] (navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/luisf/Mercury/build/navigation\n'}
+[2.768877] (navigation) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.770830] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__cpp\x1b[0m\n'}
+[2.792787] (navigation) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.806079] (-) TimerEvent: {}
+[2.906745] (-) TimerEvent: {}
+[3.007216] (-) TimerEvent: {}
+[3.107659] (-) TimerEvent: {}
+[3.208112] (-) TimerEvent: {}
+[3.308555] (-) TimerEvent: {}
+[3.408992] (-) TimerEvent: {}
+[3.509408] (-) TimerEvent: {}
+[3.575891] (navigation) StdoutLine: {'line': b'[  6%] Built target navigation__cpp\n'}
+[3.601047] (navigation) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.601427] (navigation) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.604041] (navigation) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.606418] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_generator_c\x1b[0m\n'}
+[3.609524] (-) TimerEvent: {}
+[3.710265] (-) TimerEvent: {}
+[3.717545] (navigation) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/navigation__rosidl_generator_c.dir/rosidl_generator_c/navigation/srv/detail/get_velocity__functions.c.o\x1b[0m\n'}
+[3.810381] (-) TimerEvent: {}
+[3.911325] (-) TimerEvent: {}
+[4.012090] (-) TimerEvent: {}
+[4.061296] (navigation) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libnavigation__rosidl_generator_c.so\x1b[0m\n'}
+[4.112223] (-) TimerEvent: {}
+[4.184395] (navigation) StdoutLine: {'line': b'[ 22%] Built target navigation__rosidl_generator_c\n'}
+[4.211352] (navigation) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.212932] (-) TimerEvent: {}
+[4.313578] (-) TimerEvent: {}
+[4.364204] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.408709] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.413691] (-) TimerEvent: {}
+[4.454809] (navigation) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation/srv/detail/get_velocity__type_support.cpp.o\x1b[0m\n'}
+[4.481759] (navigation) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation/srv/get_velocity__type_support.cpp.o\x1b[0m\n'}
+[4.513829] (-) TimerEvent: {}
+[4.541562] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.613936] (-) TimerEvent: {}
+[4.714341] (-) TimerEvent: {}
+[4.814715] (-) TimerEvent: {}
+[4.863870] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_c\x1b[0m\n'}
+[4.914866] (-) TimerEvent: {}
+[4.944901] (navigation) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation/srv/get_velocity__type_support.cpp.o\x1b[0m\n'}
+[5.015012] (-) TimerEvent: {}
+[5.064340] (navigation) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation/srv/detail/dds_fastrtps/get_velocity__type_support.cpp.o\x1b[0m\n'}
+[5.108051] (navigation) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.115147] (-) TimerEvent: {}
+[5.215771] (-) TimerEvent: {}
+[5.258241] (navigation) StdoutLine: {'line': b'[ 41%] Built target navigation__rosidl_typesupport_c\n'}
+[5.279255] (navigation) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.315937] (-) TimerEvent: {}
+[5.416332] (-) TimerEvent: {}
+[5.516728] (-) TimerEvent: {}
+[5.617667] (-) TimerEvent: {}
+[5.718186] (-) TimerEvent: {}
+[5.819284] (-) TimerEvent: {}
+[5.920302] (-) TimerEvent: {}
+[6.021242] (-) TimerEvent: {}
+[6.051743] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.093995] (navigation) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.123405] (-) TimerEvent: {}
+[6.152998] (navigation) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation/srv/detail/get_velocity__type_support.c.o\x1b[0m\n'}
+[6.223555] (-) TimerEvent: {}
+[6.235902] (navigation) StdoutLine: {'line': b'[ 51%] Built target navigation__rosidl_typesupport_cpp\n'}
+[6.248145] (navigation) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.251277] (navigation) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libnavigation__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.323711] (-) TimerEvent: {}
+[6.327866] (navigation) StdoutLine: {'line': b'[ 58%] Built target navigation__rosidl_typesupport_introspection_c\n'}
+[6.356923] (navigation) StdoutLine: {'line': b'[ 58%] Built target navigation__rosidl_typesupport_introspection_cpp\n'}
+[6.423871] (-) TimerEvent: {}
+[6.524438] (-) TimerEvent: {}
+[6.625046] (-) TimerEvent: {}
+[6.711115] (navigation) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.725191] (-) TimerEvent: {}
+[6.825741] (-) TimerEvent: {}
+[6.926118] (-) TimerEvent: {}
+[6.960659] (navigation) StdoutLine: {'line': b'[ 61%] Built target navigation__rosidl_typesupport_fastrtps_cpp\n'}
+[6.978806] (navigation) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.026286] (-) TimerEvent: {}
+[7.126631] (-) TimerEvent: {}
+[7.227049] (-) TimerEvent: {}
+[7.327439] (-) TimerEvent: {}
+[7.427828] (-) TimerEvent: {}
+[7.525873] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.527948] (-) TimerEvent: {}
+[7.589303] (navigation) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation/srv/detail/get_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[7.628094] (-) TimerEvent: {}
+[7.728558] (-) TimerEvent: {}
+[7.829197] (-) TimerEvent: {}
+[7.929721] (-) TimerEvent: {}
+[8.030217] (-) TimerEvent: {}
+[8.130725] (-) TimerEvent: {}
+[8.231236] (-) TimerEvent: {}
+[8.277690] (navigation) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.331372] (-) TimerEvent: {}
+[8.431850] (-) TimerEvent: {}
+[8.445155] (navigation) StdoutLine: {'line': b'[ 70%] Built target navigation__rosidl_typesupport_fastrtps_c\n'}
+[8.465647] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation\x1b[0m\n'}
+[8.485749] (navigation) StdoutLine: {'line': b'[ 70%] Built target navigation\n'}
+[8.504928] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__py\x1b[0m\n'}
+[8.526482] (navigation) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.531993] (-) TimerEvent: {}
+[8.632487] (-) TimerEvent: {}
+[8.732903] (-) TimerEvent: {}
+[8.833401] (-) TimerEvent: {}
+[8.933785] (-) TimerEvent: {}
+[9.034223] (-) TimerEvent: {}
+[9.134610] (-) TimerEvent: {}
+[9.234964] (-) TimerEvent: {}
+[9.335394] (-) TimerEvent: {}
+[9.435780] (-) TimerEvent: {}
+[9.536117] (-) TimerEvent: {}
+[9.636604] (-) TimerEvent: {}
+[9.736939] (-) TimerEvent: {}
+[9.837301] (-) TimerEvent: {}
+[9.937666] (-) TimerEvent: {}
+[10.038037] (-) TimerEvent: {}
+[10.138398] (-) TimerEvent: {}
+[10.238811] (-) TimerEvent: {}
+[10.339238] (-) TimerEvent: {}
+[10.367210] (navigation) StdoutLine: {'line': b'[ 74%] Built target navigation__py\n'}
+[10.387512] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__python\x1b[0m\n'}
+[10.439367] (-) TimerEvent: {}
+[10.539757] (-) TimerEvent: {}
+[10.640129] (-) TimerEvent: {}
+[10.645590] (navigation) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/navigation__python.dir/rosidl_generator_py/navigation/srv/_get_velocity_s.c.o\x1b[0m\n'}
+[10.740264] (-) TimerEvent: {}
+[10.840748] (-) TimerEvent: {}
+[10.941106] (-) TimerEvent: {}
+[11.023088] (navigation) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/navigation/libnavigation__python.so\x1b[0m\n'}
+[11.041222] (-) TimerEvent: {}
+[11.106158] (navigation) StdoutLine: {'line': b'[ 80%] Built target navigation__python\n'}
+[11.126041] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.130926] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.131479] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.141333] (-) TimerEvent: {}
+[11.198379] (navigation) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigation/_navigation_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.205066] (navigation) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigation/_navigation_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.212774] (navigation) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigation/_navigation_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.241495] (-) TimerEvent: {}
+[11.342176] (-) TimerEvent: {}
+[11.442664] (-) TimerEvent: {}
+[11.495250] (navigation) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/navigation/navigation_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.495624] (navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/navigation/navigation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.495856] (navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/navigation/navigation_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.543790] (-) TimerEvent: {}
+[11.604342] (navigation) StdoutLine: {'line': b'[100%] Built target navigation__rosidl_typesupport_introspection_c__pyext\n'}
+[11.622175] (navigation) StdoutLine: {'line': b'[100%] Built target navigation__rosidl_typesupport_c__pyext\n'}
+[11.643937] (-) TimerEvent: {}
+[11.678361] (navigation) StdoutLine: {'line': b'[100%] Built target navigation__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.697780] (navigation) CommandEnded: {'returncode': 0}
+[11.744111] (-) TimerEvent: {}
+[11.787973] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'install'}
+[11.815534] (navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luisf/Mercury/build/navigation'], 'cwd': '/home/luisf/Mercury/build/navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '1841'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/Mercury/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/Mercury/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49168'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/luisf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2253,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2253'), ('INVOCATION_ID', 'd3772ad77f6d40bb88670cdf15079ef4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51978fef_8943_4844_b651_8045d850fe54'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/Mercury/build/navigation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.832746] (navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.833755] (navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.834404] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/rosidl_interfaces/navigation\n'}
+[11.844235] (-) TimerEvent: {}
+[11.853030] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.869332] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__functions.h\n'}
+[11.885620] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__struct.h\n'}
+[11.900828] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__type_support.h\n'}
+[11.918850] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/get_velocity.h\n'}
+[11.934685] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/library_path.sh\n'}
+[11.944350] (-) TimerEvent: {}
+[11.950783] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/library_path.dsv\n'}
+[11.967795] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.987160] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[12.007329] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_fastrtps_c.so\n'}
+[12.025966] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.044473] (-) TimerEvent: {}
+[12.046059] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.061938] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.078346] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.094680] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_introspection_c.h\n'}
+[12.110689] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.126937] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__builder.hpp\n'}
+[12.141691] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__struct.hpp\n'}
+[12.144979] (-) TimerEvent: {}
+[12.161204] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__traits.hpp\n'}
+[12.178408] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__type_support.hpp\n'}
+[12.193988] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/get_velocity.hpp\n'}
+[12.210347] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.228023] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/pythonpath.sh\n'}
+[12.243459] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/pythonpath.dsv\n'}
+[12.245076] (-) TimerEvent: {}
+[12.259608] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/__init__.py\n'}
+[12.277401] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/srv/__init__.py\n'}
+[12.298819] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/srv/_get_velocity.py\n'}
+[12.316603] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.333031] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.345201] (-) TimerEvent: {}
+[12.350336] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.401673] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/lib/libnavigation__python.so\n'}
+[12.418721] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity.idl\n'}
+[12.434086] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity.srv\n'}
+[12.445334] (-) TimerEvent: {}
+[12.448900] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity_Request.msg\n'}
+[12.464250] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity_Response.msg\n'}
+[12.481035] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation\n'}
+[12.481692] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation\n'}
+[12.482345] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/ament_prefix_path.sh\n'}
+[12.483519] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/ament_prefix_path.dsv\n'}
+[12.485159] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/path.sh\n'}
+[12.486467] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/path.dsv\n'}
+[12.486806] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.bash\n'}
+[12.487186] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.sh\n'}
+[12.487854] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.zsh\n'}
+[12.488457] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.dsv\n'}
+[12.489188] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/package.dsv\n'}
+[12.504554] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/packages/navigation\n'}
+[12.505147] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake-extras.cmake\n'}
+[12.521024] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.536541] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.545454] (-) TimerEvent: {}
+[12.552479] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.570239] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.586866] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.602767] (navigation) StdoutLine: {'line': b'-- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.619983] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigationConfig.cmake\n'}
+[12.620407] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigationConfig-version.cmake\n'}
+[12.621269] (navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/package.xml\n'}
+[12.622145] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_generator_c.so\n'}
+[12.622810] (navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_generator_c.so" to ""\n'}
+[12.623107] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_c.so\n'}
+[12.624132] (navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.624452] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_c.so\n'}
+[12.625415] (navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_c.so" to ""\n'}
+[12.625723] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_cpp.so\n'}
+[12.626744] (navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.627062] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_cpp.so\n'}
+[12.628029] (navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_cpp.so" to ""\n'}
+[12.645594] (-) TimerEvent: {}
+[12.727112] (navigation) StdoutLine: {'line': b"Compiling '/home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/__init__.py'...\n"}
+[12.735965] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cExport.cmake\n'}
+[12.736427] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.736856] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.737281] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.737607] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cExport.cmake\n'}
+[12.737884] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.738204] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cppExport.cmake\n'}
+[12.738660] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.739043] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.739516] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cppExport.cmake\n'}
+[12.739884] (navigation) StdoutLine: {'line': b'-- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.744477] (navigation) CommandEnded: {'returncode': 0}
+[12.746365] (-) TimerEvent: {}
+[12.849525] (-) TimerEvent: {}
+[12.913047] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[12.914412] (-) EventReactorShutdown: {}

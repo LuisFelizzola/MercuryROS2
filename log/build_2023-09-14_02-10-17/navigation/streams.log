@@ -1,0 +1,183 @@
+[0.039s] Invoking command in '/home/luisf/Mercury/build/navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/Mercury/build/navigation -- -j4 -l4
+[0.094s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.138s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.568s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.584s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.658s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.987s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.267s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.281s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.378s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.739s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.025s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.137s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.159s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.265s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.265s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.266s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.266s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.310s] -- Found PythonExtra: .so  
+[2.464s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.568s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.571s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.573s] -- Configured cppcheck include dirs: 
+[2.573s] -- Configured cppcheck exclude dirs and/or files: 
+[2.574s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.574s] -- Configured cpplint exclude dirs and/or files: 
+[2.575s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.576s] -- Added test 'lint_cmake' to check CMake code style
+[2.576s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.578s] -- Added test 'uncrustify' to check C / C++ code style
+[2.578s] -- Configured uncrustify additional arguments: 
+[2.578s] -- Added test 'xmllint' to check XML markup files
+[2.590s] -- Configuring done
+[2.709s] -- Generating done
+[2.717s] -- Build files have been written to: /home/luisf/Mercury/build/navigation
+[2.770s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.770s] [35m[1mScanning dependencies of target navigation__cpp[0m
+[2.792s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.575s] [  6%] Built target navigation__cpp
+[3.600s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.600s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.604s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.606s] [35m[1mScanning dependencies of target navigation__rosidl_generator_c[0m
+[3.718s] [ 19%] [32mBuilding C object CMakeFiles/navigation__rosidl_generator_c.dir/rosidl_generator_c/navigation/srv/detail/get_velocity__functions.c.o[0m
+[4.061s] [ 22%] [32m[1mLinking C shared library libnavigation__rosidl_generator_c.so[0m
+[4.184s] [ 22%] Built target navigation__rosidl_generator_c
+[4.211s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.364s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_introspection_cpp[0m
+[4.410s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_cpp[0m
+[4.454s] [ 29%] [32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation/srv/detail/get_velocity__type_support.cpp.o[0m
+[4.481s] [ 32%] [32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation/srv/get_velocity__type_support.cpp.o[0m
+[4.542s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_fastrtps_cpp[0m
+[4.863s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_c[0m
+[4.944s] [ 35%] [32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation/srv/get_velocity__type_support.cpp.o[0m
+[5.064s] [ 38%] [32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation/srv/detail/dds_fastrtps/get_velocity__type_support.cpp.o[0m
+[5.107s] [ 41%] [32m[1mLinking CXX shared library libnavigation__rosidl_typesupport_c.so[0m
+[5.257s] [ 41%] Built target navigation__rosidl_typesupport_c
+[5.278s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.052s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_introspection_c[0m
+[6.093s] [ 48%] [32m[1mLinking CXX shared library libnavigation__rosidl_typesupport_cpp.so[0m
+[6.152s] [ 51%] [32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation/srv/detail/get_velocity__type_support.c.o[0m
+[6.235s] [ 51%] Built target navigation__rosidl_typesupport_cpp
+[6.248s] [ 54%] [32m[1mLinking CXX shared library libnavigation__rosidl_typesupport_introspection_cpp.so[0m
+[6.251s] [ 58%] [32m[1mLinking C shared library libnavigation__rosidl_typesupport_introspection_c.so[0m
+[6.328s] [ 58%] Built target navigation__rosidl_typesupport_introspection_c
+[6.356s] [ 58%] Built target navigation__rosidl_typesupport_introspection_cpp
+[6.710s] [ 61%] [32m[1mLinking CXX shared library libnavigation__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.960s] [ 61%] Built target navigation__rosidl_typesupport_fastrtps_cpp
+[6.978s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.525s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_fastrtps_c[0m
+[7.588s] [ 67%] [32mBuilding CXX object CMakeFiles/navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation/srv/detail/get_velocity__type_support_c.cpp.o[0m
+[8.277s] [ 70%] [32m[1mLinking CXX shared library libnavigation__rosidl_typesupport_fastrtps_c.so[0m
+[8.444s] [ 70%] Built target navigation__rosidl_typesupport_fastrtps_c
+[8.465s] [35m[1mScanning dependencies of target navigation[0m
+[8.485s] [ 70%] Built target navigation
+[8.504s] [35m[1mScanning dependencies of target navigation__py[0m
+[8.526s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.367s] [ 74%] Built target navigation__py
+[10.387s] [35m[1mScanning dependencies of target navigation__python[0m
+[10.645s] [ 77%] [32mBuilding C object CMakeFiles/navigation__python.dir/rosidl_generator_py/navigation/srv/_get_velocity_s.c.o[0m
+[11.022s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/navigation/libnavigation__python.so[0m
+[11.105s] [ 80%] Built target navigation__python
+[11.125s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_introspection_c__pyext[0m
+[11.130s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_c__pyext[0m
+[11.131s] [35m[1mScanning dependencies of target navigation__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.198s] [ 83%] [32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigation/_navigation_s.ep.rosidl_typesupport_c.c.o[0m
+[11.205s] [ 87%] [32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigation/_navigation_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.212s] [ 90%] [32mBuilding C object CMakeFiles/navigation__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigation/_navigation_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.494s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/navigation/navigation_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.495s] [100%] [32m[1mLinking C shared library rosidl_generator_py/navigation/navigation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.495s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/navigation/navigation_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.604s] [100%] Built target navigation__rosidl_typesupport_introspection_c__pyext
+[11.621s] [100%] Built target navigation__rosidl_typesupport_c__pyext
+[11.678s] [100%] Built target navigation__rosidl_typesupport_fastrtps_c__pyext
+[11.697s] Invoked command in '/home/luisf/Mercury/build/navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/Mercury/build/navigation -- -j4 -l4
+[11.816s] Invoking command in '/home/luisf/Mercury/build/navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/Mercury/build/navigation
+[11.832s] -- Install configuration: ""
+[11.833s] -- Execute custom install script
+[11.833s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/rosidl_interfaces/navigation
+[11.852s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_generator_c__visibility_control.h
+[11.868s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__functions.h
+[11.885s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__struct.h
+[11.900s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__type_support.h
+[11.918s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/get_velocity.h
+[11.934s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/library_path.sh
+[11.950s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/library_path.dsv
+[11.967s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.986s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_fastrtps_c.h
+[12.006s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_fastrtps_c.so
+[12.025s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.045s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[12.061s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_fastrtps_cpp.so
+[12.078s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.094s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_introspection_c.h
+[12.110s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.126s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__builder.hpp
+[12.141s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__struct.hpp
+[12.160s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__traits.hpp
+[12.178s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__type_support.hpp
+[12.193s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/get_velocity.hpp
+[12.210s] -- Symlinking: /home/luisf/Mercury/install/navigation/include/navigation/srv/detail/get_velocity__rosidl_typesupport_introspection_cpp.hpp
+[12.227s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/pythonpath.sh
+[12.243s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/environment/pythonpath.dsv
+[12.259s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/__init__.py
+[12.276s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/srv/__init__.py
+[12.298s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/srv/_get_velocity.py
+[12.316s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[12.332s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[12.349s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/navigation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[12.401s] -- Symlinking: /home/luisf/Mercury/install/navigation/lib/libnavigation__python.so
+[12.418s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity.idl
+[12.433s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity.srv
+[12.448s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity_Request.msg
+[12.463s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/srv/GetVelocity_Response.msg
+[12.480s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[12.481s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[12.481s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[12.483s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[12.485s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/path.sh
+[12.486s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/environment/path.dsv
+[12.486s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.bash
+[12.486s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.sh
+[12.487s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.zsh
+[12.488s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/local_setup.dsv
+[12.488s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/package.dsv
+[12.504s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/ament_index/resource_index/packages/navigation
+[12.504s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake-extras.cmake
+[12.520s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.536s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[12.552s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_targets-extras.cmake
+[12.569s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.586s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.602s] -- Symlinking: /home/luisf/Mercury/install/navigation/share/navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.619s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[12.619s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[12.620s] -- Up-to-date symlink: /home/luisf/Mercury/install/navigation/share/navigation/package.xml
+[12.621s] -- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_generator_c.so
+[12.622s] -- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_generator_c.so" to ""
+[12.622s] -- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_c.so
+[12.623s] -- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_c.so" to ""
+[12.623s] -- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_c.so
+[12.624s] -- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_c.so" to ""
+[12.625s] -- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_cpp.so
+[12.626s] -- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_introspection_cpp.so" to ""
+[12.626s] -- Installing: /home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_cpp.so
+[12.627s] -- Set runtime path of "/home/luisf/Mercury/install/navigation/lib/libnavigation__rosidl_typesupport_cpp.so" to ""
+[12.726s] Compiling '/home/luisf/Mercury/install/navigation/lib/python3.8/site-packages/navigation/__init__.py'...
+[12.735s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cExport.cmake
+[12.736s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cExport-noconfig.cmake
+[12.736s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cExport.cmake
+[12.736s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.737s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cExport.cmake
+[12.737s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cExport-noconfig.cmake
+[12.737s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_generator_cppExport.cmake
+[12.738s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cppExport.cmake
+[12.738s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.739s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cppExport.cmake
+[12.739s] -- Installing: /home/luisf/Mercury/install/navigation/share/navigation/cmake/navigation__rosidl_typesupport_cppExport-noconfig.cmake
+[12.745s] Invoked command in '/home/luisf/Mercury/build/navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/Mercury/build/navigation

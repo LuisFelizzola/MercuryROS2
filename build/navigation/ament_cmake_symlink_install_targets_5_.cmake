@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/luisf/Mercury/build/navigation/rosidl_generator_py/navigation/libnavigation__python.so" "TARGETS" "navigation__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

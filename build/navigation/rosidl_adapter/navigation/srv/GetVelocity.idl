@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from navigation/srv/GetVelocity.srv
+// generated code does not contain a copyright notice
+
+
+module navigation {
+  module srv {
+    @verbatim (language="comment", text=
+      "Get the velocity of the wheels")
+    struct GetVelocity_Request {
+      double linear_x;
+
+      double linear_y;
+
+      @verbatim (language="comment", text=
+        "teta")
+      double angular_z;
+    };
+    struct GetVelocity_Response {
+      double w1;
+
+      double w2;
+
+      double w3;
+
+      double w4;
+    };
+  };
+};
